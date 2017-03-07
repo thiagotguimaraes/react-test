@@ -1,0 +1,141 @@
+body {
+  margin: 10px;
+  padding: 20px;
+  font-family: sans-serif;
+  max-width: 500px;
+  box-sizing: border-box;
+  border: solid 1px lightgray;
+  border-radius: 10px;
+}
+
+div {
+  margin: 3px;
+}
+
+img {
+  width: 120px;
+}
+
+.centralized {
+      margin: 0 auto;
+    max-width: 70px;
+}
+
+.center {
+  text-align: center;
+}
+
+.mFont {
+  font-size: 16px;
+}
+
+.bFont {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.type {
+  width: auto;
+  margin: 10px 10px;
+}
+
+.type div {
+  width: auto;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.bug {
+    background-color: #a8b820;
+    border: #6d7815;
+    background: #7e8a18;
+}
+  .dark {
+    background-color: #705848;
+    border: #49392f;
+    background: #544236;
+  }
+  .dragon {
+    background-color: #7038f8;
+    border: #4924a1;
+    background: #4608dc;
+  }
+  .electric {
+    background-color: #f8d030;
+    border: #a1871f;
+    background: #d7ad07;
+  }
+  .fairy {
+    background-color: #ee99ac;
+    border: #9b6470;
+    background: #e04568;
+  }
+  .fighting {
+    background-color: #c03028;
+    border: #7d1f1a;
+    background: #90241e;
+  }
+  .fire {
+    background-color: #f08030;
+    border: #9c531f;
+    background: #c95c0f;
+  }
+  .flying {
+    background-color: #a890f0;
+    border: #6d5e9c;
+    background: #663be5;
+  }
+  .grass {
+    background-color: #78c850;
+    border: #4e8234;
+    background: #57a032;
+  }
+  .ghost {
+    background-color: #705898;
+    border: #493963;
+    background: #544272;
+  }
+  .ground {
+    background-color: #e0c068;
+    border: #927d44;
+    background: #cca12a;
+  }
+  .ice {
+    background-color: #98d8d8;
+    border: #638d8d;
+    background: #55bfbf;
+  }
+  .normal {
+    background-color: #a8a878;
+    border: #6d6d4e;
+    background: #838355;
+  }
+  .poison {
+    background-color: #c183c1;
+    border: #a040a0;
+    background: #a251a2;
+  }
+  .psychic {
+    background-color: #f85888;
+    border: #a13959;
+    background: #f20a50;
+  }
+  .rock {
+    background-color: #b8a038;
+    border: #786824;
+    background: #8a782a;
+  }
+  .steel {
+    background-color: #b8b8d0;
+    border: #787887;
+    background: #7d7da9;
+  }
+  .water {
+    background-color: #6890f0;
+    border: #445e9c;
+    background: #1a56e8;
+}
+
