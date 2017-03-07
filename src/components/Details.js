@@ -62,6 +62,8 @@ class Details extends React.Component {
         let id = this.props.location.query.id;
         this.getData(`http://pokeapi.co/api/v2/pokemon/`, id).then(res => {
             this.changeData(res.data);
+        }, err => {
+            this.setState({ hideSpin: true, name: "Este Pokemon não existe", })
         });
     }
 

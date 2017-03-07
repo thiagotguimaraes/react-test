@@ -53,6 +53,7 @@ class Home extends React.Component {
             next: newData.next,
             hideSpin: true,
         })
+        console.log(this.state.results)
     }
 
     handlePageChanged(newPage) {
