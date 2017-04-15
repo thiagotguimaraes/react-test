@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Details from "./components/Details";
 import Home from "./components/Home";
+import TransitionList from "./components/TransitionList";
 import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 // require("bootstrap/less/bootstrap.less");
 
@@ -19,6 +20,7 @@ ReactDOM.render((
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="pokemon" component={Details} />
+      <Route path="list" component={TransitionList} />
     </Route>
   </Router>
 
